@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #49b66d;
+    overflow: hidden;
+    margin: auto;
+    width: 97%;
+    padding: 5px;
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.logo{
+    float: left;
+    margin-left: 3%;
+}
+
+.menuList{
+    list-style: none;
+    margin: 0;
+    margin-right: 3%;
+    padding: 0px;
+    float: right;
+}
+
+.item{
+    float: left;
+    margin-left: 25px;
+}
+
+.input{
+    margin-right: 200px;
+}
+
+.search_bar{
+    width: 400px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid ;
+    outline: none;
+
+}
+/* Aprendi isso no site: https://www.mbdanceapparel.com/2021/01/29/how-do-you-change-the-input-width-in-css/ */
+.search_bar:focus{
+    border-color: #c391d9;
+    box-shadow: 0 0 8px 0 #c391d9;
+}
+
+
+.links{
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.links:hover{
+    background-color: #489761;
+    border-radius: 8px;
+    
+}
+
+.links:active{
+    background-color: #e1eee5;
+    border-radius: 8px;
+    
+}

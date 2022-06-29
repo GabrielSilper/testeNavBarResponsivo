@@ -1,0 +1,64 @@
+    @media screen and (max-width: 1450px){
+    
+        .input{
+            margin-right: 0px;
+        }
+        .logo{
+    
+            margin: auto;
+            
+        }
+    
+        .item{
+            margin: auto;
+        }
+    
+    
+        
+    }
+    
+    @media screen and (max-width: 1090px){
+        
+        .left{
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    
+    }
+
+@media screen and (max-width: 950px){
+    
+    .header{
+        position: static;
+    }
+
+    .logo{
+        padding-top: 7px;
+        float: none;
+        text-align: center;
+        position: static;
+        margin: auto;
+    }
+
+    .menuList{
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+        
+    }
+
+    .item{
+        float: none;
+        margin: auto;
+        margin-bottom: 7px;
+    }
+    
+}
+
+@media screen and (max-width: 420px){
+    
+    .search_bar{
+        width: 95%;
+    }
+
+}
